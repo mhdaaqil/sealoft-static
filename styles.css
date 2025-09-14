@@ -1,0 +1,27 @@
+:root{
+  --accent:#4f46e5;
+  --muted:#6b7280;
+}
+*{box-sizing:border-box}
+body{font-family:Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; color:#111; background:#fff}
+.container{max-width:1100px; margin:0 auto; padding:20px}
+.nav{border-bottom:1px solid #eee}
+.nav .container{display:flex; align-items:center; justify-content:space-between}
+.brand{font-size:22px; color:var(--accent); margin:0}
+.menu a{margin-left:18px; text-decoration:none; color:var(--muted)}
+.hero{background:#f9fafb; padding:40px 0}
+.hero-inner{display:flex; gap:30px; align-items:center}
+.hero-text h2{font-size:28px; margin:0 0 10px}
+.hero-text p{margin:0 0 16px; color:var(--muted)}
+.btn{display:inline-block; background:var(--accent); color:#fff; padding:10px 18px; text-decoration:none; border-radius:999px}
+.hero-image img{width:320px; border-radius:12px; box-shadow:0 6px 18px rgba(0,0,0,0.08)}
+.shop h3{margin-top:0; text-align:center}
+.grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:18px; margin-top:20px}
+.card{background:#fff; border:1px solid #f1f1f1; padding:12px; border-radius:12px; text-align:center}
+.card img{width:100%; height:220px; object-fit:cover; border-radius:8px}
+.price{color:var(--accent); font-weight:700; margin:8px 0}
+.whatsapp{display:inline-block; margin-top:8px; background:#25D366; color:#fff; padding:8px 12px; text-decoration:none; border-radius:8px}
+.about, .contact{margin-top:30px; text-align:center}
+.footer{background:#111827; color:#fff; padding:12px 0; text-align:center; margin-top:30px}
+.floating{position:fixed; right:18px; bottom:18px; background:#25D366; color:#fff; padding:12px 14px; border-radius:999px; text-decoration:none; box-shadow:0 8px 30px rgba(0,0,0,0.15)}
+@media(max-width:800px){ .hero-inner{flex-direction:column-reverse} .hero-image img{width:100%} .menu{display:none} }

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sealoft - Women's Wear</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container">
+      <h1 class="brand">Sealoft</h1>
+      <nav class="menu">
+        <a href="#shop">Shop</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2>Elegance in Every Stitch</h2>
+          <p>Discover Abayas, Shalwars, Maxis & more from Sealoft.</p>
+          <a class="btn" href="#shop">Shop Now</a>
+        </div>
+        <div class="hero-image">
+          <img src="images/hero.jpg" alt="Sealoft hero" />
+        </div>
+      </div>
+    </section>
+
+    <section id="shop" class="container shop">
+      <h3>Our Collection</h3>
+      <div class="grid">
+        <div class="card">
+          <img src="images/abaya.jpg" alt="Elegant Abaya" />
+          <h4>Elegant Abaya</h4>
+          <p class="price">LKR 6,500</p>
+          <a class="whatsapp" href="https://wa.me/94712345678?text=Hello%20Sealoft%2C%20I%20would%20like%20to%20order%20the%20Elegant%20Abaya%20(LKR%206%2C500).">Order via WhatsApp</a>
+        </div>
+
+        <div class="card">
+          <img src="images/shalwar.jpg" alt="Classic Shalwar" />
+          <h4>Classic Shalwar</h4>
+          <p class="price">LKR 5,200</p>
+          <a class="whatsapp" href="https://wa.me/94712345678?text=Hello%20Sealoft%2C%20I%20would%20like%20to%20order%20the%20Classic%20Shalwar%20(LKR%205%2C200).">Order via WhatsApp</a>
+        </div>
+
+        <div class="card">
+          <img src="images/maxi.jpg" alt="Maxi Dress" />
+          <h4>Maxi Dress</h4>
+          <p class="price">LKR 7,800</p>
+          <a class="whatsapp" href="https://wa.me/94712345678?text=Hello%20Sealoft%2C%20I%20would%20like%20to%20order%20the%20Maxi%20Dress%20(LKR%207%2C800).">Order via WhatsApp</a>
+        </div>
+
+        <div class="card">
+          <img src="images/top.jpg" alt="Trendy Top" />
+          <h4>Trendy Top</h4>
+          <p class="price">LKR 3,900</p>
+          <a class="whatsapp" href="https://wa.me/94712345678?text=Hello%20Sealoft%2C%20I%20would%20like%20to%20order%20the%20Trendy%20Top%20(LKR%203%2C900).">Order via WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h3>About Sealoft</h3>
+      <p>Sealoft blends Sri Lankan craftsmanship with modern design to create comfortable, elegant women's wear. Handmade details, quality fabrics, and timeless styles.</p>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h3>Contact</h3>
+      <p>Email: support@sealoft.com | Phone: +94 71 234 5678</p>
+      <a class="btn whatsapp" href="https://wa.me/94712345678?text=Hello%20Sealoft%2C%20I%20would%20like%20to%20know%20more%20about%20your%20collection.">Chat on WhatsApp</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© Sealoft <span id="year"></span></div>
+  </footer>
+
+  <a class="floating" href="https://wa.me/94712345678?text=Hello%20Sealoft%2C%20I%20have%20a%20question.">WhatsApp</a>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
